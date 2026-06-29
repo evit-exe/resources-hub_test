@@ -1,0 +1,102 @@
+/* ====================================================================
+   SimplyPMG.pro Resource Hub - component styles
+   v1.2 - ALL rules scoped under #resource-hub-component so nothing
+   leaks into or collides with the surrounding Webflow page.
+   Page chrome (header/hero/footer/CTA) intentionally NOT included -
+   Webflow renders those natively.
+   ==================================================================== */
+
+#resource-hub-component{
+  /* design tokens (scoped to the component) */
+  --pmg-primary:#005978;--pmg-primary-2:#314e62;--pmg-primary-3:#426984;
+  --pmg-accent:#58a4b1;--pmg-tint:#d3edf4;--pmg-tint-2:#effdff;
+  --pmg-text:#191919;--pmg-text-2:#43464d;--pmg-muted:#758696;--pmg-border:#ecf0f3;
+  --pmg-white:#fff;--pmg-bg:#fafbfc;
+  --status-available:#00875a;--status-updating:#d97706;--status-coming:#0369a1;
+  --radius-lg:14px;--radius-md:8px;
+  --shadow-card:0 4px 18px rgba(0,89,120,.08);--shadow-hover:0 8px 28px rgba(0,89,120,.14);
+  --font-display:'canada-type-gibson','Gibson','Helvetica Neue',Arial,sans-serif;
+  --font-body:'Helvetica Neue',Arial,sans-serif;
+  /* base typography + layout (was the demo .catlist-wrap; negative margin removed) */
+  font-family:var(--font-body);color:var(--pmg-text);line-height:1.55;
+  max-width:1180px;margin:0 auto;padding:0;position:relative;display:block;
+}
+#resource-hub-component,#resource-hub-component *{box-sizing:border-box}
+
+#resource-hub-component .catlist{display:grid;grid-template-columns:320px 1fr;gap:24px;background:var(--pmg-white);padding:24px;border-radius:var(--radius-lg);box-shadow:var(--shadow-card);min-height:540px}
+#resource-hub-component .catlist-rail{display:flex;flex-direction:column;gap:6px;border-right:1px solid var(--pmg-border);padding-right:16px}
+#resource-hub-component .rail-title{font-family:var(--font-display);font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--pmg-muted);padding:4px 14px 12px;margin:0}
+#resource-hub-component .cat-btn{display:flex;align-items:center;gap:14px;width:100%;text-align:left;background:transparent;border:none;padding:14px 16px;border-radius:10px;cursor:pointer;font-family:inherit;color:var(--pmg-text);font-size:15px;font-weight:500;transition:all .15s ease;position:relative}
+#resource-hub-component .cat-btn:hover{background:var(--pmg-tint-2)}
+#resource-hub-component .cat-btn:focus-visible{outline:3px solid var(--pmg-accent);outline-offset:2px}
+#resource-hub-component .cat-btn[aria-selected=true]{background:var(--pmg-tint);color:var(--pmg-primary);font-weight:600}
+#resource-hub-component .cat-btn[aria-selected=true]::before{content:'';position:absolute;left:0;top:12px;bottom:12px;width:4px;border-radius:0 2px 2px 0;background:var(--pmg-primary)}
+#resource-hub-component .cat-icon{width:36px;height:36px;flex-shrink:0;background:var(--pmg-tint-2);color:var(--pmg-primary);border-radius:10px;display:grid;place-items:center;font-size:18px}
+#resource-hub-component .cat-btn[aria-selected=true] .cat-icon{background:var(--pmg-primary);color:var(--pmg-white)}
+#resource-hub-component .cat-label-wrap{flex:1;min-width:0;display:flex;flex-direction:column;gap:2px}
+#resource-hub-component .cat-label{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+#resource-hub-component .cat-count{font-size:11px;font-weight:600;color:var(--pmg-muted);background:var(--pmg-bg);padding:2px 8px;border-radius:999px}
+#resource-hub-component .cat-btn[aria-selected=true] .cat-count{background:var(--pmg-white);color:var(--pmg-primary)}
+#resource-hub-component .cat-badge{font-size:9px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;background:var(--pmg-accent);color:var(--pmg-white);padding:2px 7px;border-radius:999px}
+#resource-hub-component .catlist-panel{padding:0 8px 0 16px;min-width:0}
+#resource-hub-component .panel-pane[hidden]{display:none}
+#resource-hub-component .panel-header{display:flex;align-items:flex-start;gap:16px;padding-bottom:18px;margin-bottom:18px;border-bottom:1px solid var(--pmg-border)}
+#resource-hub-component .panel-header .cat-icon{width:48px;height:48px;font-size:22px;background:var(--pmg-primary);color:var(--pmg-white)}
+#resource-hub-component .panel-header h2{font-family:var(--font-display);font-size:26px;margin:0 0 6px;color:var(--pmg-primary);font-weight:600}
+#resource-hub-component .panel-header .lede{margin:0;color:var(--pmg-text-2);font-size:14px;max-width:600px}
+#resource-hub-component .panel-toolbar{display:flex;gap:10px;align-items:center;margin-bottom:14px;flex-wrap:wrap}
+#resource-hub-component .search-box{display:flex;align-items:center;gap:8px;background:var(--pmg-tint-2);border:1px solid var(--pmg-border);border-radius:8px;padding:8px 12px;flex:1;min-width:220px}
+#resource-hub-component .search-box input{border:none;background:transparent;outline:none;font-family:inherit;font-size:14px;color:var(--pmg-text);width:100%}
+#resource-hub-component .search-box svg{flex-shrink:0;color:var(--pmg-muted)}
+#resource-hub-component .status-legend{display:flex;gap:10px;font-size:11px;color:var(--pmg-muted)}
+#resource-hub-component .legend-dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:4px;vertical-align:middle}
+#resource-hub-component .sub-accordion{display:flex;flex-direction:column;gap:10px}
+#resource-hub-component .sub-item{border:1px solid var(--pmg-border);border-radius:var(--radius-md);background:var(--pmg-white);overflow:hidden;transition:box-shadow .2s,border-color .2s;scroll-margin-top:100px}
+#resource-hub-component .sub-item:hover{box-shadow:var(--shadow-card)}
+#resource-hub-component .sub-item.is-open{border-color:var(--pmg-accent);box-shadow:var(--shadow-card)}
+#resource-hub-component .sub-header{width:100%;background:transparent;border:none;padding:16px 20px;display:flex;align-items:center;gap:14px;cursor:pointer;text-align:left;font-family:inherit;color:var(--pmg-text);transition:background .15s}
+#resource-hub-component .sub-header:hover{background:var(--pmg-tint-2)}
+#resource-hub-component .sub-header:focus-visible{outline:3px solid var(--pmg-accent);outline-offset:-3px}
+#resource-hub-component .sub-title-wrap{flex:1;min-width:0;display:flex;align-items:center;gap:12px}
+#resource-hub-component .sub-title{font-family:var(--font-display);font-size:16px;font-weight:600;margin:0;color:var(--pmg-text)}
+#resource-hub-component .sub-count{font-size:11px;font-weight:600;color:var(--pmg-muted);background:var(--pmg-tint-2);padding:3px 10px;border-radius:999px}
+#resource-hub-component .sub-chev{width:24px;height:24px;flex-shrink:0;color:var(--pmg-primary);display:grid;place-items:center;transition:transform .25s;font-size:12px}
+#resource-hub-component .sub-item.is-open .sub-chev{transform:rotate(180deg)}
+#resource-hub-component .sub-panel{max-height:0;overflow:hidden;transition:max-height .4s ease}
+#resource-hub-component .sub-item.is-open .sub-panel{max-height:3000px}
+#resource-hub-component .sub-panel-inner{padding:0 20px 16px;border-top:1px solid var(--pmg-border)}
+#resource-hub-component .resource-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
+#resource-hub-component .resource-item{display:flex;align-items:center;gap:12px;padding:12px 0;border-bottom:1px solid var(--pmg-border);transition:background .15s}
+#resource-hub-component .resource-item:last-child{border-bottom:none}
+#resource-hub-component .resource-item:hover{background:var(--pmg-tint-2);margin:0 -8px;padding:12px 8px}
+#resource-hub-component .resource-meta{flex:1;min-width:0}
+#resource-hub-component .resource-title{font-size:14px;font-weight:500;color:var(--pmg-text);margin:0 0 4px}
+#resource-hub-component .resource-tags{display:flex;gap:6px;flex-wrap:wrap}
+#resource-hub-component .badge{display:inline-flex;align-items:center;gap:4px;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.04em;padding:3px 8px;border-radius:999px}
+#resource-hub-component .badge-type{background:var(--pmg-tint-2);color:var(--pmg-primary);border:1px solid var(--pmg-tint)}
+#resource-hub-component .badge-status::before{content:'';display:inline-block;width:6px;height:6px;border-radius:50%}
+#resource-hub-component .badge-status.available{background:#e6f4ed;color:var(--status-available)}
+#resource-hub-component .badge-status.available::before{background:var(--status-available)}
+#resource-hub-component .badge-status.updating{background:#fef3e2;color:var(--status-updating)}
+#resource-hub-component .badge-status.updating::before{background:var(--status-updating)}
+#resource-hub-component .badge-status.coming{background:#e1f1fa;color:var(--status-coming)}
+#resource-hub-component .badge-status.coming::before{background:var(--status-coming)}
+#resource-hub-component .resource-action{display:inline-flex;align-items:center;gap:6px;padding:8px 14px;border-radius:999px;font-size:12px;font-weight:600;text-decoration:none;background:var(--pmg-primary);color:var(--pmg-white);border:none;cursor:pointer;flex-shrink:0;transition:background .15s}
+#resource-hub-component .resource-action:hover{background:var(--pmg-primary-2)}
+#resource-hub-component .resource-action.coming{background:transparent;color:var(--pmg-muted);border:1px solid var(--pmg-border)}
+#resource-hub-component .resource-action.coming:hover{background:var(--pmg-tint-2)}
+#resource-hub-component .empty-state{padding:24px;text-align:center;color:var(--pmg-muted);font-size:14px;font-style:italic}
+
+@media (max-width:860px){
+  #resource-hub-component .catlist{grid-template-columns:1fr;padding:16px}
+  #resource-hub-component .catlist-rail{flex-direction:row;overflow-x:auto;border-right:none;border-bottom:1px solid var(--pmg-border);padding:0 0 14px;gap:8px;scrollbar-width:thin}
+  #resource-hub-component .rail-title{display:none}
+  #resource-hub-component .cat-btn{flex:0 0 auto;padding:10px 14px}
+  #resource-hub-component .cat-btn[aria-selected=true]::before{display:none}
+  #resource-hub-component .cat-icon{width:28px;height:28px;font-size:14px}
+  #resource-hub-component .cat-label-wrap{flex-direction:row;align-items:center;gap:8px}
+  #resource-hub-component .catlist-panel{padding:16px 0 0}
+  #resource-hub-component .panel-header h2{font-size:22px}
+  #resource-hub-component .resource-item{flex-wrap:wrap}
+  #resource-hub-component .resource-action{margin-left:auto}
+}
