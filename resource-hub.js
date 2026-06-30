@@ -33,7 +33,7 @@
     "icon": "★",
     "badge": "Signature",
     "lede": "PMG's exclusive Earned Equity Program — everything brokers need to position, originate, and close EEP loans.",
-    "total": 27,
+    "total": 10,
     "subcategories": [
       {
         "id": "guides",
@@ -81,7 +81,7 @@
             "type": "Guide",
             "status": "coming",
             "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11800218293"
-          },
+          }
         ]
       },
  
@@ -110,7 +110,7 @@
             "type": "Guide",
             "status": "coming",
             "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11800234132"
-          },
+          }
         ]
       },
 
