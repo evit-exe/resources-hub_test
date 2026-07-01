@@ -251,7 +251,7 @@
     "icon": "📖",
     "badge": null,
     "lede": "Step-by-step walkthroughs for every stage of the loan workflow.",
-    "total": 27,
+    "total": 6,
     "subcategories": [
       {
         "id": "submission",
@@ -263,63 +263,56 @@
             "name": "Ordering Appraisals - Guide",
             "type": "Guide",
             "status": "available",
-            "monday": "#"
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a44051a1f4f892df8090b0c_SimplyPMG.pro%20Ordering%20Appraisals%20-%20Guide%20v1.3.pdf"
           },
           {
             "id": "11801054275",
             "name": "DPA Stacking with FHA or Conventional Loans - Guide",
             "type": "Guide",
             "status": "available",
-            "monday": "#"
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a440a5fcfc30139d18958d5_SimplyPMG.pro%20DPA%20Stacking%20with%20FHA%20or%20Conventional%20Loans%20-%20Guide%20v1.pdf"
           },
         ]
       },
       {
         "id": "lock-pricing",
         "label": "Lock & Pricing",
-        "count": 0,
+        "count": 1,
         "items": [
           {
             "id": "0",
-            "name": "TBD",
+            "name": "TBP",
             "type": "Document",
             "status": "coming",
             "monday": "#"
-          },
+          }
         ]
       },
       {
         "id": "underwriting",
         "label": "Underwriting",
-        "count": 0,
+        "count": 1,
         "items": [
           {
-            "id": "11801043944",
-            "name": "How to Check Loan Status",
-            "type": "How-To Guide",
+            "id": "0",
+            "name": "TBP",
+            "type": "Document",
             "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801043944"
-          },
+            "monday": "#"
+          }
         ]
       },
       {
         "id": "closing-funding",
         "label": "Closing & Funding",
-        "count": 2,
+        "count": 1,
         "items": [
           {
-            "id": "11801156574",
-            "name": "How to Request Closing Instructions",
-            "type": "How-To Guide",
+            "id": "0",
+            "name": "TBP",
+            "type": "Document",
             "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801156574"
-          },
-          {
-            "id": "11801073936",
-            "name": "What Happens After CTC",
-            "type": "Overview",
-            "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801073936"
+            "monday": "#"
           }
         ]
       },
@@ -329,11 +322,11 @@
         "count": 1,
         "items": [
           {
-            "id": "11801078034",
-            "name": "TPO Connect User Guide",
-            "type": "Guide",
-            "status": "updating",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801078034"
+            "id": "0",
+            "name": "TBP",
+            "type": "Document",
+            "status": "coming",
+            "monday": "#"
           }
         ]
       }
@@ -347,6 +340,20 @@
     "lede": "Forms, checklists, and templates — everything brokers need to submit and process a loan.",
     "total": 22,
     "subcategories": [
+      {
+        "id": "checklists",
+        "label": "Checklists",
+        "count": 1,
+        "items": [
+          {
+            "id": "11801036646",
+            "name": "Wholesale Loan Submission Form & Checklist",
+            "type": "Checklist",
+            "status": "available",
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a456d4b082db8336b0d982b_SimplyPMG.pro%20Wholesale%20Loan%20Submission%20Form%20%26%20Checklist%20v1.pdf"
+          }
+        ]
+      },
       {
         "id": "submission-forms",
         "label": "Submission Forms",
@@ -507,38 +514,9 @@
             "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801085042"
           }
         ]
-      },
-      {
-        "id": "checklists",
-        "label": "Checklists",
-        "count": 3,
-        "items": [
-          {
-            "id": "11801036646",
-            "name": "Loan Submission Checklist",
-            "type": "Checklist",
-            "status": "updating",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801036646"
-          },
-          {
-            "id": "11801092214",
-            "name": "Closing Disclosure Review Checklist",
-            "type": "Checklist",
-            "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801092214"
-          },
-          {
-            "id": "11801078094",
-            "name": "Funding Conditions & Final Docs",
-            "type": "Checklist",
-            "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801078094"
-          }
-        ]
       }
     ]
   },
-
   {
     "id": "policies-references",
     "label": "Policies & References",
