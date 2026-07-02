@@ -338,7 +338,7 @@
     "icon": "📄",
     "badge": null,
     "lede": "Forms, checklists, and templates — everything brokers need to submit and process a loan.",
-    "total": 22,
+    "total": 19,
     "subcategories": [
       {
         "id": "checklists",
