@@ -361,31 +361,31 @@
         "items": [
           {
             "id": "11801113360",
-            "name": "Conventional Loan Submission Form",
+            "name": "Conventional UW Submission Form & Checklist",
             "type": "Form",
-            "status": "updating",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801113360"
-          },
-          {
-            "id": "11801158040",
-            "name": "FHA Loan Sub Form",
-            "type": "Form",
-            "status": "updating",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801158040"
-          },
-          {
-            "id": "11801106528",
-            "name": "VA Loan Submission Form",
-            "type": "Form",
-            "status": "updating",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801106528"
+            "status": "available",
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a456f345954064974237ca0_SimplyPMG.pro%20Conventional%20UW%20Submission%20Form%20%26%20Checklist%20v1.pdf"
           },
           {
             "id": "11801105235",
             "name": "Doc Request Form",
             "type": "Form",
-            "status": "updating",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801105235"
+            "status": "available",
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a45701eac2a88af8e8da216_SimplyPMG.pro%20Doc%20Request%20Form%20%20v1.pdf"
+          },
+          {
+            "id": "11801158040",
+            "name": "FHA UW Loan Submission Form & Checklist",
+            "type": "Form",
+            "status": "available",
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a4570d48dd01aae28f453bf_SimplyPMG.pro%20FHA%20UW%20Loan%20Submission%20Form%20%26%20Checklist%20v1.pdf"
+          },
+          {
+            "id": "11801106528",
+            "name": "VA UW Loan Submission Form & Checklist",
+            "type": "Form",
+            "status": "available",
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a457147b5099af99089b290_SimplyPMG.pro%20VA%20UW%20Loan%20Submission%20Form%20%26%20Checklist%20v1.pdf"
           }
         ]
       },
@@ -395,109 +395,101 @@
         "count": 6,
         "items": [
           {
+            "id": "11801110857",
+            "name": "Anti-Steering Loan Options Disclosure Form",
+            "type": "Form",
+            "status": "available",
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a457280e8caf3c1e2d5d382_SimplyPMG.pro%20Anti-Steering%20Loan%20Options%20Disclosure%20Form%20v1.pdf"
+          },
+         {
+            "id": "11801157761",
+            "name": "Government Agency Approval Numbers",
+            "type": "Form",
+            "status": "available",
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a4575211311703db968ff86_SimplyPMG.pro%20Government%20Agency%20Approval%20Numbers%20v1.pdf"
+          },
+          {
             "id": "11801157637",
             "name": "Initial Closing Disclosure Request Form",
             "type": "Form",
-            "status": "updating",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801157637"
+            "status": "available",
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a4575fa033b523a7bf655ca_SimplyPMG.pro%20Initial%20Closing%20Disclosure%20Request%20Form%20v1.pdf"
           },
           {
             "id": "11801157471",
             "name": "Lender Disclosure Request Form",
             "type": "Form",
-            "status": "updating",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801157471"
-          },
-          {
-            "id": "11801092545",
-            "name": "Re-Disclosure | Change of Circumstance",
-            "type": "Form",
-            "status": "updating",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801092545"
+            "status": "available",
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a457674304ef8d3be2a3994_SimplyPMG.pro%20Lender%20Disclosure%20Request%20Form%20v1.pdf"
           },
           {
             "id": "11801107814",
-            "name": "Mortgage Broker Fee Agreement",
+            "name": "Mortgage Broker Fee Agreement Form",
             "type": "Form",
-            "status": "updating",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801107814"
+            "status": "available",
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a45772e40be8fce64edb076_SimplyPMG.pro%20Mortgage%20Broker%20Fee%20Agreement%20Form%20v1.pdf"
           },
           {
-            "id": "11801110857",
-            "name": "Anti-Steering Loan Options Disclosure Form",
+            "id": "11801092545",
+            "name": "Re-Disclosure Change of Circumstance Form",
             "type": "Form",
-            "status": "updating",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801110857"
-          },
-          {
-            "id": "11801157761",
-            "name": "Gov Sponsorship Info",
-            "type": "Form",
-            "status": "updating",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801157761"
+            "status": "available",
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a457791a197dc74b49f5b97_SimplyPMG.pro%20Re-Disclosure%20Change%20of%20Circumstance%20Form%20v1.pdf"
           }
         ]
       },
       {
         "id": "borrower-forms",
         "label": "Borrower Forms",
-        "count": 8,
+        "count": 7,
         "items": [
           {
-            "id": "11801092802",
-            "name": "Gift Letter",
-            "type": "Form",
-            "status": "updating",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801092802"
-          },
-          {
-            "id": "11801131251",
-            "name": "Power of Attorney Borrower Cert",
-            "type": "Form",
-            "status": "updating",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801131251"
-          },
-          {
-            "id": "11801103930",
-            "name": "VA Nearest Living Relative",
-            "type": "Form",
-            "status": "updating",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801103930"
-          },
-          {
             "id": "11801157644",
-            "name": "Condo Questionnaire",
+            "name": "Condominium Project Questionnaire Form",
             "type": "Form",
-            "status": "updating",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801157644"
+            "status": "available",
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a45787e4be8888d3fa33ee5_SimplyPMG.pro%20Condominium%20Project%20Questionnaire%20Form%20v1.pdf"
           },
           {
             "id": "11801110907",
-            "name": "Extended Fraud Victim Alert Cert",
+            "name": "Extended Fraud Victim Alert Certification Form",
             "type": "Form",
-            "status": "updating",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801110907"
+            "status": "available",
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a457ba23414f31e71a581e3_SimplyPMG.pro%20Extended%20Fraud%20Victim%20Alert%20Certification%20Form%20v1.pdf"
+          },
+          {
+            "id": "11801092802",
+            "name": "Gift Letter Form",
+            "type": "Form",
+            "status": "available",
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a457e9231af243f6cfe41d1_SimplyPMG.pro%20Gift%20Letter%20Form%20v1.pdf"
+          },{
+            "id": "11801131251",
+            "name": "Power of Attorney Borrower Certification Form",
+            "type": "Form",
+            "status": "available",
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a457f3abc5c2b6c3251a6c2_SimplyPMG.pro%20Power%20of%20Attorney%20Borrower%20Certification%20Form%20v1.pdf"
           },
           {
             "id": "11801105887",
-            "name": "SSN Verif SSA-89",
+            "name": "SSA-89 SSN Verification Form",
             "type": "Form",
-            "status": "updating",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801105887"
+            "status": "available",
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a457ff3b8b69ce119f74d3d_SimplyPMG.pro%20SSA-89%20SSN%20Verification%20Form%20v1.pdf"
+          },
+          {
+            "id": "11801103930",
+            "name": "VA Nearest Living Relative Form",
+            "type": "Form",
+            "status": "available",
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a45806ee986be7b9253491e_SimplyPMG.pro%20VA%20Nearest%20Living%20Relative%20Form%20v1.pdf"
           },
           {
             "id": "11801158025",
-            "name": "VOR Form",
+            "name": "Request for Verification of Rent Form",
             "type": "Form",
-            "status": "updating",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801158025"
-          },
-          {
-            "id": "11801055128",
-            "name": "Borrower Authorization Form",
-            "type": "Form",
-            "status": "updating",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801055128"
+            "status": "available",
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a458103b8b69ce119f7a0d1_SimplyPMG.pro%20Request%20for%20Verification%20of%20Rent%20Form%20v1.pdf"
           }
         ]
       },
@@ -508,23 +500,51 @@
         "items": [
           {
             "id": "11801085042",
-            "name": "Mortgagee Clause",
+            "name": "Mortgagee/Loss Payee Clause",
             "type": "Form",
-            "status": "updating",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801085042"
+            "status": "available",
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a4581c08adc74294794d218_SimplyPMG.pro%20Mortgagee%20Loss%20Payee%20Clause%20v1.pdf"
           }
         ]
       }
     ]
   },
   {
-    "id": "policies-references",
-    "label": "Policies & References",
+    "id": "policies-reference",
+    "label": "Policies & Reference",
     "icon": "⚖️",
     "badge": null,
     "lede": "Rules, overlays, limits, and reference info that govern how PMG underwrites and closes.",
     "total": 20,
     "subcategories": [
+      {
+        "id": "pricing-lock",
+        "label": "Pricing & Lock",
+        "count": 3,
+        "items": [
+          {
+            "id": "11801023967",
+            "name": "Loan Level Price Adjusters (LLPAs) Guide",
+            "type": "Reference",
+            "status": "coming",
+            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801023967"
+          },
+          {
+            "id": "11801030067",
+            "name": "Lock Confirmation Process",
+            "type": "Reference",
+            "status": "coming",
+            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801030067"
+          },
+          {
+            "id": "11801038550",
+            "name": "Expired Lock Policy",
+            "type": "Policy",
+            "status": "coming",
+            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801038550"
+          }
+        ]
+      },
       {
         "id": "overlays",
         "label": "Overlays",
@@ -559,35 +579,7 @@
             "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11800990422"
           }
         ]
-      },
-      {
-        "id": "pricing-lock",
-        "label": "Pricing & Lock",
-        "count": 3,
-        "items": [
-          {
-            "id": "11801023967",
-            "name": "Loan Level Price Adjusters (LLPAs) Guide",
-            "type": "Reference",
-            "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801023967"
-          },
-          {
-            "id": "11801030067",
-            "name": "Lock Confirmation Process",
-            "type": "Reference",
-            "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801030067"
-          },
-          {
-            "id": "11801038550",
-            "name": "Expired Lock Policy",
-            "type": "Policy",
-            "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801038550"
-          }
-        ]
-      },
+      },  
       {
         "id": "underwriting-reference",
         "label": "Underwriting Reference",
