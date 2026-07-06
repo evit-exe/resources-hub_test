@@ -31,7 +31,7 @@
     "id": "eep",
     "label": "Earned Equity Program (EEP)",
     "icon": "★",
-    "badge": "Signature",
+    "badge": null,
     "lede": "PMG's exclusive Earned Equity Program — everything brokers need to position, originate, and close EEP loans.",
     "total": 10,
     "subcategories": [
@@ -136,11 +136,11 @@
     "icon": "📊",
     "badge": null,
     "lede": "Eligibility matrices for every PMG loan program. Downloadable PDFs, updated monthly.",
-    "total": 11,
+    "total": 8,
     "subcategories": [
       {
         "id": "conventional",
-        "label": "Conventional",
+        "label": "Conventional Products",
         "count": 3,
         "items": [
           {
@@ -168,7 +168,7 @@
       },
       {
         "id": "government",
-        "label": "Government",
+        "label": "Government Products",
         "count": 3,
         "items": [
           {
@@ -195,23 +195,16 @@
         ]
       },
       {
-        "id": "dpa",
-        "label": "DPA",
-        "count": 4,
+        "id": "specialty",
+        "label": "Specialty Products",
+        "count": 2,
         "items": [
           {
-            "id": "11800984592",
-            "name": "Advantage DPA",
+            "id": "11801125396",
+            "name": "EEP Matrix",
             "type": "Matrix",
-            "status": "updating",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11800984592"
-          },
-          {
-            "id": "11932140107",
-            "name": "Edge DPA",
-            "type": "Matrix",
-            "status": "updating",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11932140107"
+            "status": "available",
+            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801125396"
           },
           {
             "id": "12026614264",
@@ -219,17 +212,10 @@
             "type": "Matrix",
             "status": "available",
             "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a21c6588306a43ee966b94f_SimplyPMG%20%20Simply%20DPA%20Program%20Matrix%2005.11.26.pdf"
-          },
-          {
-            "id": "11800994437",
-            "name": "DPA Comparison Chart",
-            "type": "Matrix",
-            "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11800994437"
           }
         ]
       },
-      {
+      /*{
         "id": "eep-cross-listed",
         "label": "EEP (cross-listed)",
         "count": 1,
@@ -242,7 +228,7 @@
             "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/69fd1db727a6e0f0b063cd98_SimplyPMG%20-%20Earned%20Equity%20Program%20Matrix%2005.05.26.pdf"
           }
         ]
-      }
+      }*/
     ]
   },
     {
@@ -251,7 +237,7 @@
     "icon": "📖",
     "badge": null,
     "lede": "Step-by-step walkthroughs for every stage of the loan workflow.",
-    "total": 6,
+    "total": 2,
     "subcategories": [
       {
         "id": "submission",
@@ -273,7 +259,7 @@
             "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a440a5fcfc30139d18958d5_SimplyPMG.pro%20DPA%20Stacking%20with%20FHA%20or%20Conventional%20Loans%20-%20Guide%20v1.pdf"
           },
         ]
-      },
+      }/*,
       {
         "id": "lock-pricing",
         "label": "Lock & Pricing",
@@ -329,7 +315,7 @@
             "monday": "#"
           }
         ]
-      }
+      }*/
     ]
   },
   {
@@ -515,9 +501,9 @@
     "icon": "⚖️",
     "badge": null,
     "lede": "Rules, overlays, limits, and reference info that govern how PMG underwrites and closes.",
-    "total": 20,
+    "total": 4,
     "subcategories": [
-      {
+      /*{
         "id": "pricing-lock",
         "label": "Pricing & Lock",
         "count": 3,
@@ -579,70 +565,42 @@
             "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11800990422"
           }
         ]
-      },  
+      }, */ 
       {
         "id": "underwriting-reference",
         "label": "Underwriting Reference",
-        "count": 8,
+        "count": 4,
         "items": [
           {
-            "id": "11801069748",
-            "name": "Credit Policy Overview",
+            "id": "11800993405",
+            "name": "Conventional Loans Overlays",
             "type": "Reference",
-            "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801069748"
+            "status": "available",
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a4c27a49c428a94b4950cd7_SimplyPMG.pro%20%20Conventional%20Loans%20Overlays%20v1.pdf"
           },
           {
-            "id": "11801034755",
-            "name": "1003 Requirements",
-            "type": "Reference",
-            "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801034755"
+            "id": "11800990001",
+            "name": "FHA Case Number & CAIVRS - Guide",
+            "type": "Guide",
+            "status": "available",
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a4c283dddf6c6100af59a18_SimplyPMG.pro%20FHA%20Case%20Number%20%26%20CAIVRS%20-%20Guide%20v1.pdf"
           },
           {
-            "id": "11801089375",
-            "name": "Property Types & Eligibility",
+            "id": "11800954880",
+            "name": "FHA Overlays",
             "type": "Reference",
-            "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801089375"
-          },
-          {
-            "id": "11801080389",
-            "name": "Non-Occupant Co-Borrower Policy",
-            "type": "Reference",
-            "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801080389"
-          },
-          {
-            "id": "11800267239",
-            "name": "Current Conforming Loan Limits",
-            "type": "Reference",
-            "status": "updating",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11800267239"
-          },
-          {
-            "id": "11801048920",
-            "name": "DTI Policy by Product",
-            "type": "Reference",
-            "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801048920"
-          },
-          {
-            "id": "11801086466",
-            "name": "UW Turn Times & Escalation Policy",
-            "type": "Policy",
-            "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801086466"
+            "status": "available",
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a4c28982caac114457dcb32_SimplyPMG.pro%20FHA%20Overlays%20v1.pdf"
           },
           {
             "id": "11801053469",
-            "name": "File Naming Conventions",
+            "name": "VA Overlays",
             "type": "Reference",
-            "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801053469"
+            "status": "available",
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a4c28fa5239218b1a632d3c_SimplyPMG.pro%20VA%20Overlays%20v1.pdf"
           }
         ]
-      },
+      }/*,
       {
         "id": "closing-reference",
         "label": "Closing Reference",
@@ -684,7 +642,7 @@
             "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801081059"
           }
         ]
-      }
+      }*/
     ]
   },
   {
