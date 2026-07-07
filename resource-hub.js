@@ -3,7 +3,8 @@
    reference it from the Webflow embed snippet. */
 (function(){
   const DATA = [
-    {
+    /* hidden until ready
+    { 
     "id": "become-a-partner",
     "label": "Becoming a Partner",
     "icon": "🤝",
@@ -26,7 +27,7 @@
         ]
       }
     ]
-  }, 
+  }, */
   {
     "id": "eep",
     "label": "Earned Equity Program (EEP)",
@@ -145,7 +146,7 @@
         "items": [
           {
             "id": "11800269533",
-            "name": "Conventional Eligibility Matrix",
+            "name": "Conventional Conforming Fixed Matrix",
             "type": "Matrix",
             "status": "available",
             "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/69fd1cd3b40f3bd4b284f5a7_SimplyPMG%20-%20Conventional%20Program%20Matrix%2005.05.26.pdf"
@@ -179,18 +180,18 @@
             "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/69fd1d5ab2b7a3f5dffa3ce1_SimplyPMG%20-%20FHA%20Program%20Matrix%2005.05.26.pdf"
           },
           {
-            "id": "11800989724",
-            "name": "VA Eligibility Matrix",
-            "type": "Matrix",
-            "status": "available",
-            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/69fd1d7c6ed6082b569e4bbe_SimplyPMG%20-%20VA%20Program%20Matrix%2005.05.26.pdf"
-          },
-          {
             "id": "11801004580",
             "name": "USDA Eligibility Matrix",
             "type": "Matrix",
             "status": "available",
             "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/69fd1d9252598565db91e4af_SimplyPMG%20-%20USDA%20Program%20Matrix%2005.05.26.pdf"
+          },
+          {
+            "id": "11800989724",
+            "name": "VA Eligibility Matrix",
+            "type": "Matrix",
+            "status": "available",
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/69fd1d7c6ed6082b569e4bbe_SimplyPMG%20-%20VA%20Program%20Matrix%2005.05.26.pdf"
           }
         ]
       },
@@ -204,7 +205,7 @@
             "name": "EEP Matrix",
             "type": "Matrix",
             "status": "available",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801125396"
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/69fd1db727a6e0f0b063cd98_SimplyPMG%20-%20Earned%20Equity%20Program%20Matrix%2005.05.26.pdf"
           },
           {
             "id": "12026614264",
@@ -249,14 +250,14 @@
             "name": "Ordering Appraisals - Guide",
             "type": "Guide",
             "status": "available",
-            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a44051a1f4f892df8090b0c_SimplyPMG.pro%20Ordering%20Appraisals%20-%20Guide%20v1.3.pdf"
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a4d2f0a090520b25891d539_SimplyPMG.pro%20Ordering%20Appraisals%20-%20Guide%20v1.3.pdf"
           },
           {
             "id": "11801054275",
             "name": "DPA Stacking with FHA or Conventional Loans - Guide",
             "type": "Guide",
             "status": "available",
-            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a440a5fcfc30139d18958d5_SimplyPMG.pro%20DPA%20Stacking%20with%20FHA%20or%20Conventional%20Loans%20-%20Guide%20v1.pdf"
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a4d2f6771ce22d09bcce8c3_SimplyPMG.pro%20DPA%20Stacking%20with%20FHA%20or%20Conventional%20Loans%20-%20Guide%20v1.pdf"
           },
         ]
       }/*,
@@ -336,7 +337,7 @@
             "name": "Wholesale Loan Submission Form & Checklist",
             "type": "Checklist",
             "status": "available",
-            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a456d4b082db8336b0d982b_SimplyPMG.pro%20Wholesale%20Loan%20Submission%20Form%20%26%20Checklist%20v1.pdf"
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a4d41129bf1c02288035be5_SimplyPMG.pro%20Wholesale%20Loan%20Submission%20Form%20%26%20Checklist%20v1.pdf"
           }
         ]
       },
@@ -350,28 +351,28 @@
             "name": "Conventional UW Submission Form & Checklist",
             "type": "Form",
             "status": "available",
-            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a456f345954064974237ca0_SimplyPMG.pro%20Conventional%20UW%20Submission%20Form%20%26%20Checklist%20v1.pdf"
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a4d468a1e1851208f30d258_SimplyPMG.pro%20Conventional%20UW%20Submission%20Form%20%26%20Checklist%20v1.pdf"
           },
           {
             "id": "11801105235",
             "name": "Doc Request Form",
             "type": "Form",
             "status": "available",
-            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a45701eac2a88af8e8da216_SimplyPMG.pro%20Doc%20Request%20Form%20%20v1.pdf"
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a4d46e462005b3eda98ef56_SimplyPMG.pro%20Doc%20Request%20Form%20%20v1.pdf"
           },
           {
             "id": "11801158040",
             "name": "FHA UW Loan Submission Form & Checklist",
             "type": "Form",
             "status": "available",
-            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a4570d48dd01aae28f453bf_SimplyPMG.pro%20FHA%20UW%20Loan%20Submission%20Form%20%26%20Checklist%20v1.pdf"
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a4d474b4a71e3459cce9608_SimplyPMG.pro%20FHA%20UW%20Loan%20Submission%20Form%20%26%20Checklist%20v1.pdf"
           },
           {
             "id": "11801106528",
             "name": "VA UW Loan Submission Form & Checklist",
             "type": "Form",
             "status": "available",
-            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a457147b5099af99089b290_SimplyPMG.pro%20VA%20UW%20Loan%20Submission%20Form%20%26%20Checklist%20v1.pdf"
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a4d477fc04d93e8337c92c7_SimplyPMG.pro%20VA%20UW%20Loan%20Submission%20Form%20%26%20Checklist%20v1.pdf"
           }
         ]
       },
@@ -568,7 +569,7 @@
       }, */ 
       {
         "id": "underwriting-reference",
-        "label": "Underwriting Reference",
+        "label": "Underwriting (incl Overlays)",
         "count": 4,
         "items": [
           {
@@ -645,7 +646,7 @@
       }*/
     ]
   },
-  {
+  /*{
     "id": "faq",
     "label": "FAQ",
     "icon": "❓",
@@ -741,7 +742,7 @@
         ]
       }
     ]
-  }
+  }*/
 ];
   const STATUS = {
     available:{label:'Available',cta:'↓ Download'},
