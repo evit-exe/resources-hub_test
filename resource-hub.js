@@ -46,42 +46,42 @@
             "name": "Borrower Paid vs Lender Paid? - Guide",
             "type": "Guide",
             "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11800224816"
+            "monday": "#"
           },
           {
             "id": "11800250131",
             "name": "DPA Steps to Register/Lock",
             "type": "Guide",
             "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11800250131"
+            "monday": "#"
           },
           {
             "id": "11800998925",
             "name": "Earned Equity Program - Overview",
             "type": "Document",
             "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11800998925"
+            "monday": "#"
           },
           {
             "id": "11800233011",
             "name": "EEP Appraisal Ordering",
             "type": "Guide",
             "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11800233011"
+            "monday": "#"
           },
           {
             "id": "11800217794",
             "name": "EEP Submission Overview",
             "type": "Guide",
             "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11800250174"
+            "monday": "#"
           },
           {
             "id": "11800222093",
             "name": "Entity Job Aid / Phase 2",
             "type": "Guide",
             "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11800218293"
+            "monday": "#"
           }
         ]
       },
@@ -96,21 +96,21 @@
             "name": "EEP HOI Request Checklist",
             "type": "Form",
             "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11800248531"
+            "monday": "#"
           },
           {
             "id": "11800243498",
             "name": "EEP Pre-Approval Checklist",
             "type": "Checklist",
             "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11800243498"
+            "monday": "#"
           },
           {
             "id": "11800234132",
             "name": "EEP Self Employment Calculator",
             "type": "Guide",
             "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11800234132"
+            "monday": "#"
           }
         ]
       },
@@ -125,7 +125,7 @@
             "name": "EEP Frequently Asked Questions FAQ",
             "type": "Document",
             "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11800222278"
+            "monday": "#"
           }
         ]
       },
