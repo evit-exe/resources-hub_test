@@ -757,14 +757,32 @@
   function esc(s){return String(s).replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]))}
   function triggerDownload(url,filename){
     if(!url || url==='#') return;
+    const safeName = String(filename || 'download').trim() || 'download';
     const link = document.createElement('a');
-    link.href = url;
-    link.download = filename;
     link.rel = 'noopener noreferrer';
     link.style.display = 'none';
-    document.body.appendChild(link);
-    link.click();
-    link.remove();
+    const finishDownload = (href)=>{
+      link.href = href;
+      link.download = safeName;
+      document.body.appendChild(link);
+      link.click();
+      link.remove();
+    };
+    if(window.fetch){
+      fetch(url, { mode: 'cors' })
+        .then(res=>{
+          if(!res.ok) throw new Error('Network response was not ok');
+          return res.blob();
+        })
+        .then(blob=>{
+          const objectUrl = URL.createObjectURL(blob);
+          finishDownload(objectUrl);
+          setTimeout(()=>URL.revokeObjectURL(objectUrl), 1000);
+        })
+        .catch(()=>finishDownload(url));
+    } else {
+      finishDownload(url);
+    }
   }
   function render(){
     DATA.forEach((cat,idx)=>{
