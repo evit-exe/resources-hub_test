@@ -149,7 +149,8 @@
             "name": "Conventional Conforming Fixed Matrix",
             "type": "Matrix",
             "status": "available",
-            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/69fd1cd3b40f3bd4b284f5a7_SimplyPMG%20-%20Conventional%20Program%20Matrix%2005.05.26.pdf"
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/69fd1cd3b40f3bd4b284f5a7_SimplyPMG%20-%20Conventional%20Program%20Matrix%2005.05.26.pdf",
+            "filename": "SimplyPMG - Conventional Conforming Fixed Program Matrix 05.05.26"
           },
           {
             "id": "11885297753",
@@ -777,7 +778,7 @@
       pane.dataset.cat = cat.id;
       if(idx!==0) pane.hidden = true;
       const subAccordion = cat.subcategories.map(sub=>{
-        const items = sub.items.map(item=>`<li class="resource-item" data-item-name="${esc(item.name).toLowerCase()}"><div class="resource-meta"><p class="resource-title">${esc(item.name)}</p><div class="resource-tags"><span class="badge badge-type">${esc(item.type)}</span><span class="badge badge-status ${item.status}">${STATUS[item.status].label}</span></div></div><a href="${item.monday}" target="_blank" rel="noopener" class="resource-action ${item.status==='coming'?'coming':''}">${STATUS[item.status].cta}</a></li>`).join('');
+        const items = sub.items.map(item=>`<li class="resource-item" data-item-name="${esc(item.name).toLowerCase()}"><div class="resource-meta"><p class="resource-title">${esc(item.name)}</p><div class="resource-tags"><span class="badge badge-type">${esc(item.type)}</span><span class="badge badge-status ${item.status}">${STATUS[item.status].label}</span></div></div><a href="${item.monday}" target="_blank" rel="noopener" class="resource-action ${item.status==='coming'?'coming':''}" download="${item.filename}.pdf">${STATUS[item.status].cta}</a></li>`).join('');
         return `<article class="sub-item" id="${cat.id}--${sub.id}"><button class="sub-header" aria-expanded="false" aria-controls="sp-${cat.id}-${sub.id}"><div class="sub-title-wrap"><h3 class="sub-title">${esc(sub.label)}</h3><span class="sub-count">${sub.count} item${sub.count===1?'':'s'}</span></div><span class="sub-chev" aria-hidden="true">▼</span></button><div class="sub-panel" id="sp-${cat.id}-${sub.id}" role="region"><div class="sub-panel-inner">${sub.count===0?'<div class="empty-state">No resources yet.</div>':`<ul class="resource-list">${items}</ul>`}</div></div></article>`;
       }).join('');
       pane.innerHTML = `<header class="panel-header"><span class="cat-icon" aria-hidden="true">${cat.icon}</span><div><h2>${esc(cat.label)}</h2><p class="lede">${esc(cat.lede)}</p></div></header><div class="panel-toolbar"><div class="search-box"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg><input type="search" placeholder="Search ${esc(cat.label.toLowerCase())}…" data-search="${cat.id}" aria-label="Search ${esc(cat.label)}"></div><div class="status-legend"><span><span class="legend-dot" style="background:var(--status-available)"></span>Available</span><span><span class="legend-dot" style="background:var(--status-updating)"></span>Updating</span><span><span class="legend-dot" style="background:var(--status-coming)"></span>Coming Soon</span></div></div><div class="sub-accordion">${subAccordion}</div>`;
